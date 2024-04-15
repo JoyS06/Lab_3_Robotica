@@ -32,7 +32,7 @@ La primera sección del código fue adaptada del ejemplo proporcionado en la gu�
 
 Este código incorpora una función diseñada para capturar las teclas presionadas en el sistema operativo Linux. Esta función se utiliza en lugar del objeto Keyboard común, que presenta incompatibilidades con este sistema operativo. Esta alternativa asegura una interacción fluida y efectiva sin los contratiempos que suele presentar el objeto Keyboard estándar en Linux.
 
-![image](https://github.com/JoyS06/Lab_3_Robotica/assets/105253521/3c15d001-25bb-4482-bb2e-9f64983b1f9a)
+![image](https://github.com/JoyS06/Lab_3_Robotica/assets/105253521/9bd6f624-c7dd-4da9-a85f-453b385685ff)
 
 Para mover la tortuga en el simulador de ROS, se ha implementado una función que lee las teclas presionadas por el usuario y envía comandos de velocidad al tópico cmd_vel. Además, se han creado dos objetos de tipo ServiceProxy que se conectan con los servicios TeleportAbsolute y TeleportRelative, permitiendo cambiar la posición y la orientación de la tortuga respectivamente. La función principal se encarga de inicializar el nodo de ROS y llamar a la función que detecta las teclas del teclado, proporcionando una interacción fluida y efectiva en el control de la simulación.
 
